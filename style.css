@@ -1,0 +1,35 @@
+div {
+		width: 320px;
+		border-radius: 7px;
+		background-color: #f2f2f2;
+		display: block;
+		margin: auto;
+		padding: 20px;		
+		box-shadow: 5px 5px 3px lightgrey;
+				
+}
+
+input {
+		padding: 5px;
+		margin: auto;
+		display: inline-block;
+		width: 98%;
+	}
+	
+input[type=submit]{
+	border-radius: 5px;
+	background-color: #4CAf50;
+	color: white;
+	border: none;
+	width: 325px
+	
+	}
+	
+input[type=submit]:hover {
+		background-color: green
+		}
+		
+	
+	
+
+

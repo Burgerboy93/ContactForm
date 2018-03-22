@@ -1,35 +1,44 @@
+body{
+	font-family: arial;                          /* Change font */
+	}
+	
 div {
-		width: 320px;
+		width: 320px;                             /* Set Style of the div holding form */
 		border-radius: 7px;
-		background-color: #f2f2f2;
+		background-color: #f3f3f3;
 		display: block;
 		margin: auto;
 		padding: 20px;		
 		box-shadow: 5px 5px 3px lightgrey;
-				
-}
+	}
 
-input {
-		padding: 5px;
+input {       
+		padding: 5px;                             /* Change the style of all input fields */
 		margin: auto;
 		display: inline-block;
 		width: 98%;
 	}
 	
-input[type=submit]{
-	border-radius: 5px;
-	background-color: #4CAf50;
-	color: white;
-	border: none;
-	width: 325px
+input:focus {
+		border-color: lightblue  ;                   /* Set a colour of a input field when it is the focus  */
+	}
 	
+input[type=submit]{
+	border-radius: 5px;                            /* Change style of the submit button */
+	background-color: #4286f4;
+	color: white;
+	cursor: pointer;
+	border: none; 
+	float: right;
+	width: 150px;
 	}
 	
 input[type=submit]:hover {
-		background-color: green
-		}
+		background-color: blue;                       /* Change colour of button when it is hovered over */
+	}
 		
-	
+
+
 	
 
 

@@ -1,6 +1,6 @@
 body{
 	font-family: arial;                          /* Change font */
-	}
+}
 	
 div {
 		width: 320px;                             /* Set Style of the div holding form */
@@ -10,18 +10,19 @@ div {
 		margin: auto;
 		padding: 20px;		
 		box-shadow: 5px 5px 3px lightgrey;
-	}
+}
 
 input {       
 		padding: 5px;                             /* Change the style of all input fields */
 		margin: auto;
 		display: inline-block;
 		width: 98%;
-	}
+		box-sizing: border-box;
+}
 	
 input:focus {
 		border-color: lightblue  ;                   /* Set a colour of a input field when it is the focus  */
-	}
+}
 	
 input[type=submit]{
 	border-radius: 5px;                            /* Change style of the submit button */
@@ -29,13 +30,12 @@ input[type=submit]{
 	color: white;
 	cursor: pointer;
 	border: none; 
-	float: right;
 	width: 150px;
-	}
+}
 	
 input[type=submit]:hover {
 		background-color: blue;                       /* Change colour of button when it is hovered over */
-	}
+}
 		
 
 
